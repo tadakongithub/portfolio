@@ -141,16 +141,16 @@
             <h1 class="section-title">PERSONAL PROJECTS</h1>
 
             <div class="filter-container">
-                <div class="to-react filter active">React</div>
-                <div class="to-php filter">PHP</div>
-                <div class="to-js filter" >JS</div>
+                <div id="to-react" class="filter active">React</div>
+                <div id="to-php" class="filter">PHP</div>
+                <div id="to-js" class="filter" >JS</div>
             </div>
 
             
 
             <!-- React -->
                 <div id="react" class="animated">
-                    <div id="shiritori" class="each-project">
+                    <div class="each-project">
                         <div class="no-hover">
                             <div class="no-hover-content">
                                 <h2>WORD CHAIN GAME</h2>
@@ -167,7 +167,7 @@
                         </div>
                     </div>
 
-                    <div id="formation" class="each-project">
+                    <div class="each-project">
                         <div class="no-hover">
                             <div class="no-hover-content">
                                 <h2>SOCCER FORMATION</h2>
@@ -307,7 +307,7 @@
                     </div> -->
                 </div>
 
-                <!-- js -->
+            <!-- js -->
                 <div id="js" class="animated">
                     <div id="cardgame" class="each-project">
                         <div class="no-hover">
@@ -382,7 +382,7 @@
             integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
             crossorigin="anonymous"
         ></script>
-        <script src="js/main.js"></script>
+        <script src="js/index.js"></script>
         <script src="js/typewriter.js"></script>
     </body>
 </html>

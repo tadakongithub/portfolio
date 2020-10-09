@@ -358,8 +358,8 @@ body {
   max-width: 1000px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 10px 1fr;
-  /* grid-template-rows: 1fr 10px 1fr; */
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 5s ease-in-out;
   -moz-transition: all 5s ease-in-out;
@@ -368,35 +368,7 @@ body {
   animation-duration: 0.25s;
 }
 
-#shiritori {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: linear-gradient(45deg, #2773ff, #dd31ff);
-}
-
-#formation {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: linear-gradient(45deg, #2773ff, #dd31ff);
-}
-
-#question-selector {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  background: linear-gradient(45deg, #2773ff, #dd31ff);
-}
-
-#news {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+#react .each-project {
   background: linear-gradient(45deg, #2773ff, #dd31ff);
 }
 
@@ -406,8 +378,8 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: auto;
-  grid-template-columns: 1fr 10px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -416,43 +388,7 @@ body {
   animation-duration: 0.25s;
 }
 
-#booking {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: linear-gradient(45deg, #ffc14f, #ff2727);
-}
-
-#japanese {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: linear-gradient(45deg, #ffc14f, #ff2727);
-}
-
-#dojo {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  background: linear-gradient(45deg, #ffc14f, #ff2727);
-}
-
-#recipe {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 5;
-  grid-row-end: 6;
-  background: linear-gradient(45deg, #ffc14f, #ff2727);
-}
-
-#todo {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 5;
-  grid-row-end: 6;
+#php .each-project {
   background: linear-gradient(45deg, #ffc14f, #ff2727);
 }
 
@@ -462,8 +398,8 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: auto;
-  grid-template-columns: 1fr 10px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -472,25 +408,14 @@ body {
   animation-duration: 0.25s;
 }
 
-#cardgame {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: linear-gradient(45deg, #42ff42ee, #2672ff);
-}
-
-#study-app {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+#js .each-project {
   background: linear-gradient(45deg, #42ff42ee, #2672ff);
 }
 
 /*each project*/
 .each-project {
   height: 300px;
+  margin-bottom: 20px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -642,16 +567,16 @@ body {
     font-size: 20px;
   }
 
-  #react {
+  #react,
+  #php,
+  #js {
     display: block;
-    height: auto;
   }
 
   #react .each-project,
   #php .each-project,
   #js .each-project {
     width: 100%;
-    margin: 15px auto;
     height: 200px;
   }
 
