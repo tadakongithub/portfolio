@@ -32,10 +32,6 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
-        <!-- for animation.css-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
         <!--for top screen animation -->
         <script src="js/three.r92.min.js"></script>
         <script src="js/vanta.net.min.js"></script>
@@ -65,14 +61,6 @@
                         useful websites with strong passion for writing clean and maintainable code.
                     </div>
                 </div>
-
-                <!--
-                <div class="about-middle">
-                    <img src="https://img.icons8.com/carbon-copy/50/000000/resume.png"/>
-                    <img src="https://img.icons8.com/material-sharp/50/000000/github.png"/>
-                    <img src="https://img.icons8.com/material-sharp/50/000000/linkedin.png"/>
-                </div>
-                -->
 
                 <div class="about-bottom">
                     <div class="language tech">
@@ -377,11 +365,6 @@
             spacing: 15.00
             });
         </script>
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-            crossorigin="anonymous"
-        ></script>
         <script src="js/index.js"></script>
         <script src="js/typewriter.js"></script>
     </body>

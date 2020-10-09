@@ -268,7 +268,7 @@ body {
   row-gap: 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   #professional-bottom-inside-container {
     transform: translateY(-100px);
   }
@@ -285,7 +285,7 @@ body {
   text-decoration: none;
   text-align: center;
   background-color: white;
-  padding: 1.5rem;
+  padding: 0.6rem;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -311,7 +311,9 @@ body {
 .link {
   color: #7510f7;
   padding-top: 1.5rem;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
+  width: 80%;
+  margin: auto;
 }
 
 /*personal*/
@@ -604,6 +606,7 @@ body {
 .contact-me {
   text-align: center;
   color: rgb(68, 155, 255);
+  width: 90%;
 }
 
 #form {

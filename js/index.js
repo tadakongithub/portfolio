@@ -8,6 +8,9 @@ const toPhpBtn = document.getElementById('to-php');
 const toJsBtn = document.getElementById('to-js');
 const filters = [toReactBtn, toPhpBtn, toJsBtn];
 
+php.style.display = 'none';
+js.style.display = 'none';
+
 filters.forEach((filter) => {
   filter.addEventListener('click', () => {
     const windowWidth = window.innerWidth;
