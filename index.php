@@ -62,22 +62,28 @@
                     </div>
                 </div>
 
+                <div class="links">
+                    <a href="https://www.youtube.com/channel/UClPqBk4ddZ3h6rbLW7wz-MQ" target="_blank" rel="noopener noreferrer"><img src="./img/youtube.png" class="link-icon"/></a>
+                    <a href="https://github.com/tadakongithub" target="_blank" rel="noopener noreferrer"><img src="./img/github.png" class="link-icon"/></a>
+                    <a href="https://www.linkedin.com/in/tadashi-konno/" target="_blank" rel="noopener noreferrer"><img src="./img/linkedin.png" class="link-icon"/></a>
+                </div>
+
                 <div class="about-bottom">
                     <div class="language tech">
                         <h3 class="skill-title">Languages:</h3>
-                        <div>Javascript, PHP, HTML, CSS, SQL</div>
+                        <div class="skills">JavaScript, CSS, HTML, GraphQL, PHP, Liquid</div>
                     </div>
                     <div class="library tech">
-                        <h3 class="skill-title">Frameworks:</h3>
-                        <div>React, jQuery, Bootstrap, Semantic UI</div>
+                        <h3 class="skill-title">Libraries/Frameworks:</h3>
+                        <div class="skills">React.js, Redux, Gatsby.js, jQuery, Material UI, Semantic UI</div>
                     </div>
                     <div class="framework tech">
                         <h3 class="skill-title">Databse:</h3>
-                        <div>MySQL with PHPMyAdmin</div>
+                        <div class="skills">MySQL</div>
                     </div>
                     <div class="database tech">
                         <h3 class="skill-title">Others:</h3>
-                        <div>Git/GitHub, CLI</div>
+                        <div class="skills">Git/GitHub, HTTP, Babel, Webpack, Shopify</div>
                     </div>
                 </div>
             </div>
@@ -92,13 +98,36 @@
         
             <div id="professional-bottom-container">
                 <div id="professional-bottom-inside-container">
-                    <a class="each-profesional" href="http://tadashikonno.com/balancesheeteng">
+                    <a class="each-profesional" href="https://counseling.vegemin.jp/" target="_blank" rel="noopener noreferrer">
+                        <h2>Multi-Step Survey App</h2>
+                        <p class="stacked-used">React, CSS, Shopify Storefront API, GraphQL</p>
+                        <div>Currently making a multi-step customer survey app for a Japanese startup. By users filling out this brief survey, 5 products will be selected for them that best fit their needs. Communicated with the designer and the backend developer efficiently. Developed with Reactjs, Figma, and Shopify storefront API.
+                        </div>
+                        <div class="link">counseling.vegemin.jp</div>
+                    </a>
+
+                    <a class="each-profesional" href="http://tadashikonno.com/balancesheeteng" target="_blank" rel="noopener noreferrer">
                         <h2>Daily Trial Balance Sheet</h2>
-                        <p class="stacked-used">PHP, MySQL, jQuery</p>
-                        <div>Created for a local Japanese restaurant. It allows them to input their bookkeeping
-                        digitally. Ease-to-use interface with a backend code to store the data into database and export
-                        data in excel format.</div>
+                        <p class="stacked-used">PHP, MySQL, jQuery, PHPSpreadsheet</p>
+                        <div>Built a daily trial balance sheet system with PHP and MySQL for a local restaurant, which allowed them to handle their accounting digitally. Used jQuery for its interactive UI. The client used to handle their finance in a traditional way with a pen and paper, so this app saved a lot of time by eradicating possible human-made errors.</div>
                         <div class="link">tadashikonno.com/balancesheeteng</div>
+                    </a>
+
+                    <div class="each-profesional dev">
+                        <h2>LP for Tax Accountant Corporation</h2>
+                        <p class="stacked-used">HTML, CSS</p>
+                        <div>Created a responsive landing page for a tax accountant corporation in Yokohama, Japan. Coded the page to match its design layouts I received in Illustrator. Finished 50,000 pixels LP in 2 weeks.
+                        </div>
+                        <div class="link">In Development</div>
+                    </div>
+
+                    <!-- <a class="each-profesional" href="http://tadashikonno.com/designlapaultest/">
+                        <h2>LP for A Web Agency</h2>
+                        <p class="stacked-used">HTML, CSS, JavaScript, PHP</p>
+                        <div>
+                        Updated UI of a Japanese web agency’s website using HTML, CSS. To also add a contact form, I used JavaScript for form validation and sending form data to backend, and PHP for sending the form information by email
+                        </div>
+                        <div class="link">http://tadashikonno.com/designlapaultest/</div>
                     </a>
 
                     <a class="each-profesional" href="https://coding-components.web.app/en/">
@@ -110,14 +139,23 @@
                         <div class="link">coding-components.web.app/en/</div>
                     </a>
 
-                    <a class="each-profesional">
-                        <h2>Multi-step Survey App</h2>
-                        <p class="stacked-used">React, CSS, Shopify API</p>
-                        <div>An app for a start-up that sells vegetable supplements. By users filling out a brief survey, 
-                            5 supplements will be selected for them that best fit their needs.
+                    <a class="each-profesional" href="http://tadashikonno.com/taskmanagetool">
+                        <h2>Work Progress Manage Tool</h2>
+                        <p class="stacked-used">PHP</p>
+                        <div>
+                             I created this tool to help me manage a team who were creating English Grammar questions. Question creators were able to update their progress on this tool, which helped me check the progress of the whole project.
+                        </div>
+                        <div class="link">http://tadashikonno.com/designlapaultest/</div>
+                    </a> -->
+
+                    <!-- <div class="each-profesional dev" href="https://github.com/tadakongithub/sugitomo_blog">
+                        <h2>Blog Website</h2>
+                        <p class="stacked-used">Gatsbyjs, Material UI</p>
+                        <div>
+                        Built a template page for a blog post of my friend’s website using Gatsby js.
                         </div>
                         <div class="link">In Development</div>
-                    </a>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -220,7 +258,7 @@
                         </div>
                         <div class="hover">
                             <div class="hover-content">
-                                <div class="each-title"><a target="_blank" rel="noopener noreferrer" href="http://tada-booking.com/login.php">Visit Website</a></div>
+                                <div class="each-title"><a target="_blank" rel="noopener noreferrer" href="https://tadashikonno.com/tadabooking">Visit Website</a></div>
                                 <div class="each-title"><a target="_blank" rel="noopener noreferrer" href="https://github.com/tadakongithub/booking">Code</a></div>
                             </div>
                         </div>
